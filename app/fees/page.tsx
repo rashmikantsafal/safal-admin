@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { db } from '../../lib/firebase';
+import { db } from '../../Lib/firebase';
 import { collection, addDoc, getDocs, serverTimestamp, query, orderBy } from 'firebase/firestore';
 
 export default function FeesPage() {
